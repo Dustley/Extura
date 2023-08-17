@@ -1,0 +1,6 @@
+{
+  "extura.gui.examplescreen.ok.tooltip": "Press this to return to the previous screen",
+  "extura.gui.examplescreen": "Example Screen",
+  "extura.permissions.value.example_permission": "Example Permission",
+  "extura.permissions.value.example_permission.tooltip": "This is an example for a permission"
+}

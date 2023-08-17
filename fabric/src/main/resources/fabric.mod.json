@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${display_name}",
+  "description": "${description}",
+  "authors": [
+    "${authors}"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/extura"
+  },
+  "license": "Insert License Here",
+  "icon": "assets/extura/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.figuramc.extura.fabric.ExamplePluginFabric"
+    ],
+    "figura_api": [
+      "org.figuramc.extura.ExamplePlugin"
+    ],
+    "figura_permissions": [
+      "org.figuramc.extura.ExamplePermissionsPlugin"
+    ],
+    "figura_screen": [
+      "org.figuramc.extura.ExampleScreensPlugin"
+    ],
+    "figura_vanilla_part": [
+      "org.figuramc.extura.ExampleVanillaPartPlugin"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "figura": ">=${figura_version}"
+  }
+}
